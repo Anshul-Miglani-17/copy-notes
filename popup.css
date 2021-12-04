@@ -1,0 +1,31 @@
+html,body{
+    width: 384px;
+}
+.heading {
+    align-items: center;
+    margin: 30px;
+}
+h1{
+    font-size: x-large;
+    align-items: center;
+    color: #364547;
+}
+.pic{
+    margin: 3px;
+    padding-top: 3px;
+}
+.head{
+    /* margin-top: 3px; */
+    background-color: rgb(206, 219, 219);
+}
+.form{
+    
+    margin-top: 15px;
+}
+.button{
+    size: 10000px;
+}
+.footer{
+    text-align: center;
+    font-size: xx-small;
+}

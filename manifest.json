@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "name":"copyNotes",
+    "version":"1.0",
+    "description" : "copy and save notes extention",
+    "icons":{
+        "128":"128.png",
+        "48":"48.png",
+        "16":"16.png"
+    },
+    "browser_action":{
+        "default_icon":"16.png",
+        "default_popup":"popup.html"
+    },
+    "background":{
+        "scripts":["event.js"],
+        "persistent":false
+    },
+    "permissions":[
+        "storage",
+        "contextMenus"
+    ]
+}
